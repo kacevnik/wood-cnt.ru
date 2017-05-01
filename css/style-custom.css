@@ -1,0 +1,225 @@
+/* Код для подключения шрифта в /css/stylename.css */
+
+  @font-face {
+      font-family: "NerisThin";
+      src: url("../fonts/NerisThin.eot");
+      src: url("../fonts/NerisThin.eot?#iefix")format("embedded-opentype"),
+      url("../fonts/NerisThin.woff") format("woff"),
+      url("../fonts/NerisThin.ttf") format("truetype");
+      font-style: normal;
+      font-weight: normal;
+  }
+
+  @font-face {
+      font-family: "NerisLight";
+      src: url("../fonts/NerisLight.eot");
+      src: url("../fonts/NerisLight.eot?#iefix")format("embedded-opentype"),
+      url("../fonts/NerisLight.woff") format("woff"),
+      url("../fonts/NerisLight.ttf") format("truetype");
+      font-style: normal;
+      font-weight: normal;
+  }
+
+  @font-face {
+      font-family: "NerisSemiBold";
+      src: url("../fonts/NerisSemiBold.eot");
+      src: url("../fonts/NerisSemiBold.eot?#iefix")format("embedded-opentype"),
+      url("../fonts/NerisSemiBold.woff") format("woff"),
+      url("../fonts/NerisSemiBold.ttf") format("truetype");
+      font-style: normal;
+      font-weight: normal;
+  }
+
+  @font-face {
+      font-family: "NerisBoldItalic";
+      src: url("../fonts/NerisBoldItalic.eot");
+      src: url("../fonts/NerisBoldItalic.eot?#iefix")format("embedded-opentype"),
+      url("../fonts/NerisBoldItalic.woff") format("woff"),
+      url("../fonts/NerisBoldItalic.ttf") format("truetype");
+      font-style: normal;
+      font-weight: normal;
+  }
+
+  @font-face {
+      font-family: "NerisLightItalic";
+      src: url("../fonts/NerisLightItalic.eot");
+      src: url("../fonts/NerisLightItalic.eot?#iefix")format("embedded-opentype"),
+      url("../fonts/NerisLightItalic.woff") format("woff"),
+      url("../fonts/NerisLightItalic.ttf") format("truetype");
+      font-style: normal;
+      font-weight: normal;
+  }
+
+  @font-face {
+      font-family: "NerisThinItalic";
+      src: url("../fonts/NerisThinItalic.eot");
+      src: url("../fonts/NerisThinItalic.eot?#iefix")format("embedded-opentype"),
+      url("../fonts/NerisThinItalic.woff") format("woff"),
+      url("../fonts/NerisThinItalic.ttf") format("truetype");
+      font-style: normal;
+      font-weight: normal;
+  }
+
+  @font-face {
+      font-family: "NerisSemiBoldItalic";
+      src: url("../fonts/NerisSemiBoldItalic.eot");
+      src: url("../fonts/NerisSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+      url("../fonts/NerisSemiBoldItalic.woff") format("woff"),
+      url("../fonts/NerisSemiBoldItalic.ttf") format("truetype");
+      font-style: normal;
+      font-weight: normal;
+  }
+
+
+body{
+  padding: 0;
+  margin: 0;
+  background: url('../img/main_bg.jpg')no-repeat top center;
+  font-family: 'NerisLight', arial;
+}
+
+header{
+  padding: 25px 0 25px 0;
+  border-bottom: 1px solid #666666;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+  overflow: hidden;
+}
+
+.s25{
+  width: 25%;
+}
+
+.s50{
+  width: 50%;
+}
+
+.br10{
+  border-radius: 10px;
+}
+
+.header_left{
+  float: left;
+}
+
+.header_logo{
+  float: left;
+}
+
+.header_logo a{
+  display: block;
+}
+
+.header_logo img{
+  cursor: pointer;
+  width: 80px;
+}
+
+.header_compony_slogan{
+  font-family: 'NerisSemiBold', arial;
+  font-size: 18px;
+  color: #666666;
+  text-transform: uppercase;
+  padding: 15px 0 0 150px;
+}
+
+.header-right{
+  float: right;
+  margin-top: 10px;
+}
+
+.header_phone{
+  font-size: 30px;
+  color: #666666;
+  text-transform: uppercase;
+}
+
+.header_back{
+  font-size: 16px;
+  color: #000;
+  text-transform: uppercase;
+  background: url('../img/back_button.png')no-repeat;
+  float: right;
+  background-size: contain;
+  padding: 13px 35px;
+  cursor: pointer;
+}
+
+.header_phone{
+  float: right;
+  padding: 10px 15px;
+}
+
+.main{
+  padding: 25px 0 50px 0;
+}
+
+.main h1{
+  text-align: center;
+  font-family: 'NerisThin', arial;
+  font-size: 30px;
+  color: #ff9933;
+  margin: 0 0 50px 0;
+}
+
+.content_col{
+  float: left;
+}
+
+.contant_item{
+  padding: 0 15px 015px;
+  margin: 0 0 30px 0;
+}
+
+.contant_item_shadow{
+  border: 3px solid #ff9933;
+  height: 180px;
+  overflow: hidden;
+}
+
+.item_img_1{
+    background: url('../img/item_img_1.png')no-repeat;
+}
+
+.item_img_2{
+    background: url('../img/item_img_2.png')no-repeat;
+}
+
+.item_img_3{
+    background: url('../img/item_img_3.png')no-repeat;
+}
+
+.item_img_4{
+    background: url('../img/item_img_4.png')no-repeat;
+}
+
+.item_img_5{
+    background: url('../img/item_img_5.png')no-repeat;
+}
+
+.item_img_6{
+    background: url('../img/item_img_6.png')no-repeat;
+}
+
+.item_img_7{
+    background: url('../img/item_img_7.png')no-repeat;
+}
+
+.item_img_8{
+    background: url('../img/item_img_8.png')no-repeat;
+}
+
+.contant_item_shadow a{
+  color: #fff;
+  background: rgba(0, 0, 0, 0.37);
+  height: 100%;
+  display: block;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0 20px 0 20px;
+  text-align: center;
+}
