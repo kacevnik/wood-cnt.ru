@@ -1,5 +1,15 @@
 $(document).ready(function(){
 
+    $("input, textarea").placeholder();
+
+    $("input, textarea").focus(function(){
+        $(this).attr('placeholder', '');
+    });
+
+    $("input, textarea").focusout(function(){
+        $(this).attr('placeholder', $(this).attr('data'));
+    });
+
     $(".phone").mask("+7 (999) 999-99-99");
 
     $(".header_back").fancybox({
@@ -42,5 +52,8 @@ $(document).ready(function(){
         }, 400);
     });
 
+    $('form').ajaxForm(function() { 
+        alert("Thank you for your comment!"); 
+    }); 
 
 });
