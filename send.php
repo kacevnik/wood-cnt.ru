@@ -7,7 +7,7 @@ require 'phpmailer/class.phpmailer.php';
 // ==== раскомментировать, если письма отправляются без значений полей ====
 
 $adninEmail = 'kacevnik@yandex.ru';
-$email = $_POST['email']; if($email){$emailText = 'Email пользователя: '.$email.'<br>';}
+$email = $_POST['name']; if($email){$emailText = 'Имя пользователя: '.$email.'<br>';}
 $phone = $_POST['phone']; if($phone){$phone = 'Телефон пользователя: '.$phone.'<br>';}
 $form = $_POST['hidden'];
 

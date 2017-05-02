@@ -14,7 +14,7 @@ $(document).ready(function(){
 
     $(".header_back").fancybox({
         padding     : 0,
-        height: 'auto',
+        height      : 410,
         maxWidth    : 320,
         fitToView   : false,
         width       : '70%',
@@ -53,7 +53,8 @@ $(document).ready(function(){
     });
 
     $('form').ajaxForm(function() { 
-        alert("Thank you for your comment!"); 
+        $('.fancybox-inner').height('auto');
+        $('#modal').html('<h3>Спасибо<br><span>мы вам перезвоним</span></h3>');
     }); 
 
 });
