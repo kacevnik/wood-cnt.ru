@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+    $(".phone").mask("+7 (999) 999-99-99");
+
     $(".header_back").fancybox({
         padding     : 0,
         height: 'auto',
